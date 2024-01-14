@@ -40,7 +40,7 @@ async def start(event):
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/ae14f293ef4a9352c5248.jpg",
+            file="https://telegra.ph/file/52461a8eea41c9ee43f53.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
